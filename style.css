@@ -341,26 +341,43 @@ color: white; /* text color */
 }
 /* Styles for screens up to 768px wide (e.g., mobile devices) */
 @media screen and (max-width: 768px) {
-  .container {
+  body{
     width: 100%;
     padding: 10px;
+    height: auto;
+    max-width: ;
   }
-  .sidebar {
-    display: none; /* Hide sidebar on smaller screens */
+  .footer {
+    display: none; /* Hide footer on smaller screens */
+  }
+  .img{
+    height: 600px;
+    width: auto;
+  }
+  .hero{
+    height: 600px;
+    width: 100%;
   }
 }
 
 /* Styles for screens 769px wide and above (e.g., tablets and desktops) */
 @media screen and (min-width: 769px) {
-  .container {
+  body{
     max-width: 960px;
     margin: 0 auto;
   }
-  .sidebar {
-    width: 200px;
-    float: left;
+  .nav {
+    width: 769px;
   }
-  
+  .img{
+    height: 600px;
+    width: 100%;
+    display: block;
+  }
+  .hero{
+    height: 600px;
+    width: 100%;
+  }
 }
 img {
   max-width: 100%;
@@ -380,3 +397,4 @@ img {
   margin-top: 10px;
 
 }
+
