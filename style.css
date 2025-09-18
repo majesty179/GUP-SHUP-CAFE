@@ -339,11 +339,6 @@ color: white; /* text color */
 .st{
   font-size: large;
 }
-img {
-  max-width: 100%;
-  height: auto;
-  display: block; /* Prevents extra space below the image */
-}
 .V4{
   color: black;
   text-shadow: 
@@ -357,5 +352,6 @@ img {
   margin-top: 10px;
 
 }
+
 
 
