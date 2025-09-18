@@ -339,46 +339,6 @@ color: white; /* text color */
 .st{
   font-size: large;
 }
-/* Styles for screens up to 768px wide (e.g., mobile devices) */
-@media screen and (max-width: 768px) {
-  body{
-    width: 100%;
-    padding: 10px;
-    height: auto;
-    max-width: ;
-  }
-  .footer {
-    display: none; /* Hide footer on smaller screens */
-  }
-  .img{
-    height: 600px;
-    width: auto;
-  }
-  .hero{
-    height: 600px;
-    width: 100%;
-  }
-}
-
-/* Styles for screens 769px wide and above (e.g., tablets and desktops) */
-@media screen and (min-width: 769px) {
-  body{
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  .nav {
-    width: 769px;
-  }
-  .img{
-    height: 600px;
-    width: 100%;
-    display: block;
-  }
-  .hero{
-    height: 600px;
-    width: 100%;
-  }
-}
 img {
   max-width: 100%;
   height: auto;
@@ -397,4 +357,5 @@ img {
   margin-top: 10px;
 
 }
+
 
